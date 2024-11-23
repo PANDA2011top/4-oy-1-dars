@@ -1,0 +1,48 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+.wrapper{
+display: flex;
+justify-content: space-between;
+flex-wrap: wrap;
+gap: 50px;
+}
+body{
+background-color: gold;
+
+
+}
+.bola-1{
+width: 100px;
+height: 100px;
+background-color: blue;
+
+}
+.bola{
+width: 100px;
+height: 100px;
+background-color: aqua;
+
+}
+.bola-2{
+width: 100px;
+height: 100px;
+    background-color: red;
+}
+@media only screen and  (max-width:1500px){ 
+.wrapper{
+flex-wrap: wrap;
+}
+}
+@media only screen and  (max-width:900px){ 
+    .bola-1{
+    display: none;
+    }
+    }
+    @media only screen and  (max-width:550px){ 
+        .bola-2{
+        display: none;
+        }
+        }
